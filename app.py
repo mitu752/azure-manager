@@ -6,7 +6,7 @@ import os
 import re
 
 defaultadmin ='admin'
-defaultpass = 'admin123'
+defaultpass = 'admin'
 
 app = Flask(__name__)
 app.jinja_env.filters['zip'] = zip
